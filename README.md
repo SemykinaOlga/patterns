@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/1nctblbr77k7i2nl/branch/master?svg=true)](https://ci.appveyor.com/project/SemykinaOlga/patterns1/branch/master)
