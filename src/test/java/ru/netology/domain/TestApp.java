@@ -31,6 +31,6 @@ public class TestApp {
         $(".button").click();
         $$(".button").find(exactText("Перепланировать")).click();
         $("[data-test-id=success-notification]").shouldBe(visible);
-        //$(".notification__content").shouldHave(exactText("Встреча успешно забронирована на " + (registrationInfo.getDateSecondMeeting()));
+        //$("[data-test-id=success-notification]").shouldHave(exactText("Встреча успешно забронирована на " + (registrationInfo.getDateSecondMeeting())));
     }
 }
