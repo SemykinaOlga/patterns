@@ -9,8 +9,8 @@ import lombok.Data;
 public class RegistrationInfo {
     private String city;
     private String dateFirstMeeting;
-    private String firstName;
     private String lastName;
+    private String firstName;
     private String phoneNumber;
     private String dateSecondMeeting;
 }

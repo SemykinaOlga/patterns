@@ -18,8 +18,8 @@ public class DataGeneration {
             return new RegistrationInfo(
                     faker.address().city(),
                     LocalDate.now().plusDays(3).format(DateTimeFormatter.ofPattern("dd.MM.yyyy")),
-                    faker.name().firstName(),
                     faker.name().lastName(),
+                    faker.name().firstName(),
                     faker.phoneNumber().cellPhone(),
                     LocalDate.now().plusDays(6).format(DateTimeFormatter.ofPattern("dd.MM.yyyy")));
         }

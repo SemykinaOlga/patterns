@@ -6,6 +6,7 @@ import org.openqa.selenium.Keys;
 
 
 import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -20,7 +21,7 @@ public class TestApp {
         $("[data-test-id=date] input").doubleClick();
         $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(registrationInfo.getDateFirstMeeting());
-        $("[data-test-id=name] input").setValue(registrationInfo.getFirstName() + " " + registrationInfo.getLastName());
+        $("[data-test-id=name] input").setValue(registrationInfo.getLastName() + " " + registrationInfo.getFirstName());
         $("[data-test-id=phone] input").setValue(registrationInfo.getPhoneNumber());
         $("[data-test-id=agreement]").click();
         $(".button").click();
@@ -30,6 +31,6 @@ public class TestApp {
         $(".button").click();
         $$(".button").find(exactText("Перепланировать")).click();
         $("[data-test-id=success-notification]").shouldBe(visible);
-        $(withText("Встреча успешно забронирована на " + (registrationInfo.getDateSecondMeeting())));
+        //$(".notification__content").shouldHave(exactText("Встреча успешно забронирована на " + (registrationInfo.getDateSecondMeeting()));
     }
 }
