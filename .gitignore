@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@SemykinaOlga 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-netology-code
-/
-aqa-homeworks
-3
-128
-Code
-Pull requests
-Actions
-Wiki
-Security
-Insights
-aqa-homeworks/.gitignore
-@coursar
-coursar fix: .gitignore
-Latest commit d032024 on 17 Oct 2019
- History
- 1 contributor
-45 lines (39 sloc)  450 Bytes
-  
 Thumbs.db*
 .DS_Store
 HELP.md
@@ -75,15 +43,3 @@ out/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
